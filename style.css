@@ -1,0 +1,179 @@
+
+body{ background-color: #3D087B;
+    padding: 40px;
+    /* font-style: ; */
+}
+
+
+.main-1{
+    display: flex;
+   padding: auto;
+    padding: 30px;
+}
+.clock{
+    width: 50%;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: larger;
+    font-weight: 500;
+}
+.date{
+    
+    width: 50%;
+display: flex;
+justify-content: space-between;
+margin: 25px;
+/* border: 2px solid white; */
+box-shadow: 10px 10px 10px;
+
+}
+
+.main-2{
+    display: flex;
+    
+}
+.card{
+    width: 50%;
+}
+
+#hour,#minute,#second,#session{
+    box-shadow: 10px 10px 10px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 10px;
+}
+.box{
+    display: flex;
+}
+.card-1{
+    display: flex;
+    justify-content: space-evenly;
+   height: 45px;
+   border: 1px solid black;
+}
+.card-2{
+    border-radius: 15px;
+    width:50%;
+    height: 90px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 600;
+    top: 35px;
+    position: relative;
+    margin: 10px;
+}
+
+.table{
+    display: flex;
+    width: 50%;
+}
+.main-3{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    height: 70px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin: 12px;
+}
+.main-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(9, 47, 238);
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    background-image: linear-gradient(to left,violet,pink,orange);
+}
+.main-5{
+    background-color: rgb(49, 17, 93);
+    height: 80px;
+    text-align: center;
+    width: 50%;
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.table-img{
+    display: flex;
+    display: flex;
+    height: 104px;
+}
+
+.grid{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 10px;
+    background-color: brown;
+    width: 50%;
+    height: 300px;
+}
+.date div{background-color: aliceblue;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    
+}
+.point{
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+}
+
+
+.grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.image{
+    position: relative;
+    bottom: 120px;
+    width: 50%;
+    height:340px;
+    background-image: url(./images/goodmorning.png);
+    background-size: cover;
+    border-radius: 15px;
+ 
+}
+
+
+
+@media screen and (max-width:768px)  {
+    .main-1{
+        display: block;
+    }
+    .main-2{display: block;
+    width: 100%;}
+    .table-img{display: block;}
+    .table{ display: block;
+    width: 100%;}
+    .image{
+     position: relative;
+     top:220px;
+    } 
+    .grid,.card-2,.main-4,.main-5,.main-3,.image,.clock,.date{
+        width: 100%;
+    }
+    .date{
+        margin: 0px;
+    }
+}
